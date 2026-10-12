@@ -1,0 +1,65 @@
+{
+    "sites": [
+        {
+            "key": "json读取",
+            "name": "json读取",
+            "type": 3,
+            "api": "./py-/json读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "m3u读取",
+            "name": "m3u读取",
+            "type": 3,
+            "api": "./py-/m3u读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "TXT读取",
+            "name": "TXT读取",
+            "type": 3,
+            "api": "./py-/TXT读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2
+        },
+
+        {
+            "key": "磁力读取",
+            "name": "磁力读取",
+            "type": 3,
+            "api": "./py-/磁力读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2
+        },
+
+
+
+
+   
+        {
+            "key": "DB读取",
+            "name": "DB读取",
+            "type": 3,
+            "api": "./py-/DB读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2
+        }
+    ]
+}
