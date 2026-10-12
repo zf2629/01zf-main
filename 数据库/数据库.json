@@ -26,7 +26,7 @@
             "key": "TXT读取",
             "name": "TXT读取",
             "type": 3,
-            "api": "./py-/TXT读取.py",
+            "api": "./py-/txt读取.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
