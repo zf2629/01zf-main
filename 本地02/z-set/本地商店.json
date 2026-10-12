@@ -1,0 +1,58 @@
+[
+
+    {
+        "name": "蜂蜜",
+        "list": [
+            {"name":"FM影视64位手机版","url":"https://gh-proxy.com/https://github.com/FongMi/Release/raw/fongmi/apk/leanback-arm64_v8a.apk","icon":"https://gh-proxy.com/github.com/ai2629/01img/raw/main/appimg/影视.png","version":"64位手机版"},
+            {"name":"FM影视32位电视版","url":"https://gh-proxy.com/https://github.com/FongMi/Release/raw/fongmi/apk/leanback-armeabi_v7a.apk","icon":"https://gh-proxy.com/github.com/ai2629/01img/raw/main/appimg/影视.png","version":"32位电视版"}    
+        ]
+    },
+
+
+    {"name":"WH影视",
+    "list":[
+            {"name":"WH影视电视32位","url":"https://v6.gh-proxy.org/https://github.com/fish2018/webhtv/releases/latest/download/leanback-armeabi_v7a.apk","icon":"","version":"电视32位"},
+            {"name":"WH影视手机64位","url":"https://v6.gh-proxy.org/https://github.com/fish2018/webhtv/releases/latest/download/mobile-arm64_v8a.apk","icon":"","version":"手机64位"}
+           ]
+    },
+        
+    {"name":"影视",
+    "list":[
+            {"name":"影视电视32位","url":"https://v6.gh-proxy.org/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk","icon":"","version":"电视32位"},
+           {"name":"影视手机64位","url":"https://v6.gh-proxy.org/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk","icon":"","version":"手机64位"}
+           ]
+    },
+   
+
+
+
+
+
+
+
+
+    {
+        "name": "本地包",
+        "list": [ 
+            {"name":"Ai2629","url":"https://gh-proxy.com/github.com/ai2629/01app/raw/main/ai2629.apk","icon":"https://gh-proxy.com/github.com/ai2629/01img/raw/main/logo/logo.png","version":"APP"},
+            {"name":"短剧","url":"https://gh-proxy.com/github.com/ai2629/01zip/raw/main/nz/dj.zip","icon":"http://127.0.0.1:9978/file/我的/logo/logo.png","version":"短剧"},
+
+            {"name":"FM影视64位手机版","url":"https://gh-proxy.com/https://github.com/FongMi/Release/raw/fongmi/apk/leanback-arm64_v8a.apk","icon":"https://zfhtml.neocities.org/appimg/影视.png","version":"64位手机版"},
+
+            {"name":"001","url":"https://gh-proxy.com/github.com/ai2629/01zip/raw/main/nz/001.zip","icon":"https://gh-proxy.com/github.com/ai2629/01img/raw/main/logo/logo.png","version":"本地包"},
+            {"name":"002","url":"https://gh-proxy.com/github.com/ai2629/01zip/raw/main/nz/002.zip","icon":"https://gh-proxy.com/github.com/ai2629/01img/raw/main/logo/logo.png","version":"本地包"},
+            {"name":"003","url":"https://gh-proxy.com/github.com/ai2629/01zip/raw/main/nz/003.zip","icon":"https://gh-proxy.com/github.com/ai2629/01img/raw/main/logo/logo.png","version":"本地包"},
+            {"name":"004","url":"https://gh-proxy.com/github.com/ai2629/01zip/raw/main/nz/004.zip","icon":"https://gh-proxy.com/github.com/ai2629/01img/raw/main/logo/logo.png","version":"本地包"},
+            {"name":"005","url":"https://gh-proxy.com/github.com/ai2629/01zip/raw/main/nz/005.zip","icon":"https://gh-proxy.com/github.com/ai2629/01img/raw/main/logo/logo.png","version":"本地包"},
+            {"name":"006","url":"https://gh-proxy.com/github.com/ai2629/01zip/raw/main/nz/006.zip","icon":"https://gh-proxy.com/github.com/ai2629/01img/raw/main/logo/logo.png","version":"本地包"},
+            {"name":"007","url":"https://gh-proxy.com/github.com/ai2629/01zip/raw/main/nz/007.zip","icon":"https://gh-proxy.com/github.com/ai2629/01img/raw/main/logo/logo.png","version":"本地包"},
+            {"name":"008","url":"https://gh-proxy.com/github.com/ai2629/01zip/raw/main/nz/008.zip","icon":"https://gh-proxy.com/github.com/ai2629/01img/raw/main/logo/logo.png","version":"本地包"},
+            {"name":"009","url":"https://gh-proxy.com/github.com/ai2629/01zip/raw/main/nz/009.zip","icon":"https://gh-proxy.com/github.com/ai2629/01img/raw/main/logo/logo.png","version":"本地包"},
+            {"name":"000","url":"https://gh-proxy.com/github.com/ai2629/01zip/raw/main/nz/000.zip","icon":"http://127.0.0.1:9978/file/我的/logo/logo.png","version":"本地包"},
+
+            {"name":"说明","url":"https://gh-proxy.com/github.com/ai2629/zxjson/raw/main/说明.txt","icon":"https://gh-proxy.com/github.com/ai2629/01img/raw/main/appimg/说明.png","copy":"","version":"README"}        
+        ]
+    }
+]
+
+
