@@ -6,7 +6,6 @@
      //央视直播
     {"key":"[自]央视频_py","name":"[自]央视频v1","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]央视频v1.py"},
     {"key":"[自]央视频_py","name":"[自]央视频v2","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]央视频v2.py"},
-    {"key":"[自]网页央视直播_js","name":"[自]网页央视直播","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]网页央视直播.js"},
     
     //音乐
     {"key":"[自]酷我音乐_py","name":"[自]酷我音乐","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]酷我音乐.py"},
