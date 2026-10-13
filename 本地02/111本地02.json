@@ -3,29 +3,13 @@
   "spider": "./jar/xs.jar",
   "sites": [
     {"key":"Douban","name":"🌀zf-main","type":3,"api":"csp_Douban","searchable":0,"filterable":1},
-     //央视直播
-    {"key":"[自]央视频_py","name":"[自]央视频v1","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]央视频v1.py"},
-    {"key":"[自]央视频_py","name":"[自]央视频v2","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]央视频v2.py"},
-    
-    //音乐
-    {"key":"[自]酷我音乐_py","name":"[自]酷我音乐","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]酷我音乐.py"},
-    {"key":"[自]小姐姐_py","name":"[自]小姐姐","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]小姐姐.py"},
-    
-    //游戏
-    {"key":"[自]小霸王_py","name":"[自]小霸王","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]小霸王.py"},
-    
-    
-    //直播
-    {"key":"[自]色播01_js","name":"[自]色播01","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]色播01.js"},
+    {"key":"[自]央视频_py","name":"[自]央视频","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[自]央视频.py"},
+    {"key":"[自]酷我音乐_py","name":"[自]酷我音乐","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[自]酷我音乐.py"},
+    {"key":"[自]小姐姐_py","name":"[自]小姐姐","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[自]小姐姐.py"},
 
 
 
-    {"key":"[自]自用","name":"[自]自用","jar":"./z-jar/b.jar;md5;0a591a381676c3d72427a77faed45902","type":3,"api":"csp_BiliJs","filterable":1,"searchable":0,"changeable":0,"ext":{"type":"./z/[自]自用.json"},"style":{"type":"rect","ratio":1.333}},
-    {"key":"[自]演唱会","name":"[自]演唱会","jar":"./z-jar/b.jar;md5;0a591a381676c3d72427a77faed45902","type":3,"api":"csp_BiliJs","filterable":1,"searchable":0,"changeable":0,"ext":{"type":"./z/[自]演唱会"},"style":{"type":"rect","ratio":1.333}},
-    
-
-
-
+    {"key":"[自]色播01_js","name":"[自]色播01","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./js/[自]色播01.js"},
 
 
 
