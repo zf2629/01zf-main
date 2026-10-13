@@ -1,0 +1,67 @@
+{
+  "logo": "./img/logo.png",
+  "spider": "./jar/xs.jar",
+  "sites": [
+    {"key":"Douban","name":"🌀zf-main","type":3,"api":"csp_Douban","searchable":0,"filterable":1},
+     //央视直播
+    {"key":"[自]央视频_py","name":"[自]央视频v1","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]央视频v1.py"},
+    {"key":"[自]央视频_py","name":"[自]央视频v2","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]央视频v2.py"},
+    {"key":"[自]网页央视直播_js","name":"[自]网页央视直播","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]网页央视直播.js"},
+    
+    //音乐
+    {"key":"[自]酷我音乐_py","name":"[自]酷我音乐","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]酷我音乐.py"},
+    {"key":"[自]小姐姐_py","name":"[自]小姐姐","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]小姐姐.py"},
+    
+    //游戏
+    {"key":"[自]小霸王_py","name":"[自]小霸王","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]小霸王.py"},
+    
+    
+    //直播
+    {"key":"[自]色播01_js","name":"[自]色播01","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z/[自]色播01.js"},
+
+
+
+    {"key":"[自]自用","name":"[自]自用","jar":"./z-jar/b.jar;md5;0a591a381676c3d72427a77faed45902","type":3,"api":"csp_BiliJs","filterable":1,"searchable":0,"changeable":0,"ext":{"type":"./z/[自]自用.json"},"style":{"type":"rect","ratio":1.333}},
+    {"key":"[自]演唱会","name":"[自]演唱会","jar":"./z-jar/b.jar;md5;0a591a381676c3d72427a77faed45902","type":3,"api":"csp_BiliJs","filterable":1,"searchable":0,"changeable":0,"ext":{"type":"./z/[自]演唱会"},"style":{"type":"rect","ratio":1.333}},
+    
+
+
+
+
+
+
+
+
+
+
+    {"key":"配置","name":"⚔️｜配置｜中心[工具]","type":3,"jar":"./z-jar/dongli-spider.jar","api":"csp_ConfigCenter","searchable":0,"changeable":0,"style":{"type":"list","ratio":1.433},"ext":"./config/configcenter.json"},
+    {"key":"localdb","name":"🗄️｜本地数据库[工具]","type":3,"jar":"./z-jar/dongli-spider.jar","api":"csp_LocalDB","searchable":1,"quickSearch":1,"changeable":0,"filterable":1,"ext":""},
+  
+    
+    {"key":"myuc","name":"我的┃UC[网盘]","type":3,"jar":"./z-jar/dongli-spider.jar","api":"csp_MyUC","searchable":0,"quickSearch":0,"changeable":0,"filterable":0,"indexs":0,"style":{"type":"list"},"timeout":30,"ext":"./config/myuc.json"},
+    {"key":"myquark","name":"我的┃夸克[网盘]","type":3,"jar":"./z-jar/dongli-spider.jar","api":"csp_MyQuark","searchable":0,"quickSearch":0,"changeable":0,"filterable":0,"indexs":0,"style":{"type":"list"},"timeout":30,"ext":"./config/myquark.json"},
+    {"key":"mybaidu","name":"我的┃百度[网盘]","type":3,"jar":"./z-jar/dongli-spider.jar","api":"csp_MyBaiDu","searchable":0,"quickSearch":0,"changeable":0,"filterable":0,"indexs":0,"style":{"type":"list"},"timeout":30,"ext":"./config/mybaidu.json"},
+    {"key":"myxunlei","name":"我的┃迅雷[网盘]","type":3,"jar":"./z-jar/dongli-spider.jar","api":"csp_MyXunlei","searchable":0,"quickSearch":0,"changeable":0,"filterable":0,"indexs":0,"style":{"type":"list"},"timeout":30,"ext":"./config/myxunlei.json"},
+    {"key":"myali","name":"我的┃阿里[网盘]","type":3,"jar":"./z-jar/dongli-spider.jar","api":"csp_MyAli","searchable":0,"quickSearch":0,"changeable":0,"filterable":0,"indexs":0,"style":{"type":"list"},"timeout":30,"ext":"./config/myali.json"},
+    {"key":"mytianyi","name":"我的┃天翼[网盘]","type":3,"jar":"./z-jar/dongli-spider.jar","api":"csp_MyTianYi","searchable":0,"quickSearch":0,"changeable":0,"filterable":0,"indexs":0,"style":{"type":"list"},"timeout":30},
+  
+
+
+
+
+
+
+
+    {"key":"SET_采集之王","name":"[合]采集之王","type":3,"api":"./z-set/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":1,"ext":"./z-set/采集之王.js?type=url&params=../z-set/采集.json"},
+    {"key":"SET_本地商店","name":"[工具]本地商店","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "./z-set/本地商店.json"},
+
+    {"key":"️[B]演唱会","name":"[B]演唱会","jar":"./z-jar/dongli-spider.jar","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":{"cookie":"http://127.0.0.1:9978/file/TVBox/bili_cookie.txt","json":"./z/[B]演唱会.json"},"style":{"type":"rect","ratio":1.597}},
+    {"key":"️[B]自用","name":"[B]自用","jar":"./z-jar/dongli-spider.jar","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":{"cookie":"http://127.0.0.1:9978/file/TVBox/bili_cookie.txt","json":"./z/[B]自用.json"},"style":{"type":"rect","ratio":1.597}},
+    
+    
+    
+    
+    {"key":"[直]直播转点播","name":"[直]直播转点播","type":3,"searchable":0,"api":"./z-set/zb.js","ext":"./z-set/zb.json"},
+    {"key":"[直]网页央视直播","name":"[直]网页央视直播","type":3,"jar":"./z-jar/WvSpider.jar","api":"csp_WvSpider","ext":"./z/[直]网页央视直播.js"}  
+  ]
+}
