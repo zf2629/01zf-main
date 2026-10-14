@@ -2,20 +2,7 @@
   "logo": "./img/logo.png",
   "spider": "./jar/xs.jar",
   "sites": [
-    {
-      "name": "自动加载",
-      "key": "自动加载",
-      "type": 3,
-      "api": "./z-jar/自动加载.py"
-    },
-    {
-      "key": "Douban",
-      "name": "🌀zf-main",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0,
-      "filterable": 1
-    }
-   
+    {"name":"自动加载","key":"自动加载","type":3,"api":"./z-jar/自动加载.py"},
+    {"key":"Douban","name":"🌀zf-main","type":3,"api":"csp_Douban","searchable":0,"filterable":1}
   ]
 }

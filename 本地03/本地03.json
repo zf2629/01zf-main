@@ -1,0 +1,10 @@
+{
+  "logo": "./img/logo.png",
+  "spider": "./jar/xs.jar",
+  "sites": [
+    {"key":"Douban","name":"🌀zf-main","type":3,"api":"csp_Douban","searchable":0,"filterable":1},
+    { "key": "熊猫", "name": "熊猫", "type": 3, "jar": "./z-jar/熊猫.jar", "api": "csp_XMVideo" },
+    { "key": "csp_BinMarket", "name": "环境市场", "api": "csp_BinMarket", "jar": "./z-jar/yt.jar", "type": "3", "ext": "./z-json/lab.json" }
+
+  ]
+}

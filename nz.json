@@ -1,0 +1,14 @@
+{"urls":[   
+{"name":"┃本地01┃自动加载","url":"file://zf-main/本地01/本地01.json"},       
+{"name":"┃本地02┃","url":"file://zf-main/本地02/本地02.json"}, 
+{"name":"┃本地数据库┃","url":"file://zf-main/数据库/数据库.json"}, 
+
+
+
+{"name":"┃在线01┃","url":"https://zf2629.github.io/01zf-main/本地01/本地01.json"},  
+{"name":"┃在线02┃","url":"https://zf2629.github.io/01zf-main/本地02/本地02.json"},  
+{"name":"┃在线数据库┃","url":"https://zf2629.github.io/01zf-main/数据库/数据库.json"},  
+{"name":"┃在线CMS1┃","url":"https://zf2629.github.io/01zf-main/CMS/CMS1.json"},  
+{"name":"┃在线CMS2┃","url":"https://zf2629.github.io/01zf-main/CMS/CMS2.json"},  
+{"name": "🌟影视仓本地02👇","url": "clan://localhost/zf-main/本地02/本地02.json"}
+]}
