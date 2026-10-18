@@ -1,0 +1,11 @@
+{"urls":[   
+{"name":"┃本地01┃自动加载","url":"file://zf-main/本地01/本地01.json"},       
+{"name":"┃本地B站┃","url":"file://zf-main/b/b.json"},
+{"name":"┃本地数据库┃","url":"file://zf-main/数据库/数据库.json"}, 
+{"name":"┃应用商店┃","url":"file://zf-main/应用商店/应用商店.json"}, 
+{"name":"┃本地CMS1┃","url":"file://zf-main/CMS/CMS1.json"},  
+{"name":"┃本地CMS2┃","url":"file://zf-main/CMS/CMS2.json"}, 
+{"name":"┃自动推送┃","url":"file://zf-main/自动推送/自动推送.json"}, 
+
+{"name": "🌟影视仓本地02👇","url": "clan://localhost/zf-main/本地02/本地02.json"}
+]}

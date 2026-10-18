@@ -1,0 +1,56 @@
+{
+    "spider": "./z-jar/b.jar",
+    "wallpaper": "",
+    "logo": "",
+    "sites": [
+      {"key": "豆瓣","name": "豆瓣 • 首页","type": 3,"api": "csp_Douban","searchable": 0},
+
+      {"key":"哔哩哔哩","name":"🅱️哔哩合集","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"./b/00合集.json"},
+      {"key":"🅱️┃小学","name":"🅱️┃小学","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"./b/01小学.json"},
+      {"key":"🅱️┃初中","name":"🅱️┃初中","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"cookie":"http://127.0.0.1:9978/file/TVBox/bili_cookie饭.txt","ext":"./b/02初中.json"},
+      {"key":"🅱️┃高中","name":"🅱️┃高中","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"./b/03高中.json"},
+      {"key":"🅱️┃央视经典","name":"🅱️┃央视经典","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":"./b/央视经典.json"},
+      {"key":"🅱️┃听书","name":"🅱️┃听书","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":"./b/听书.json"},
+      {"key":"🅱️┃戏曲","name":"🅱️┃戏曲","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":"./b/戏曲.json"},
+      {"key":"🅱️┃相声","name":"🅱️┃相声","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":"./b/相声.json"},
+      {"key":"🅱️┃小品","name":"🅱️┃小品","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":"./b/小品.json"},
+      {"key":"🅱️┃演唱会","name":"🅱️┃演唱会","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":"./b/演唱会.json"},
+      {"key":"🅱️┃收藏","name":"🅱️┃收藏","type":3,"api":"csp_Bili","cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt","searchable":0,"quickSearch":0,"filterable":0,"ext":"./b/收藏.json"},
+
+
+    
+      
+      {"key": "push_agent","name": "手机 • 推送","type": 3,"api": "csp_Push","searchable": 0,"filterable": 0,"changeable": 0,"hide": 1}
+    ],
+    "lives": [
+      {}
+    ],
+    "parses": [
+      {"name": "聚合","type": 3,"url": "Web"},
+      {"name": "虾米","type": 0,"url": "https://jx.xmflv.com/?url=","ext": {"header": {"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+      {"name": "云解","type": 0,"url": "https://yparse.ik9.cc/index.php?url=","ext": {"header": {"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+      {"name": "咸鱼","type": 0,"url": "https://jx.xymp4.cc/?url=","ext": {"header": {"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+      {"name": "淘片","type": 0,"url": "https://jx.yparse.com/index.php?url=","ext": {"header": {"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+      {"name": "冰豆","type": 0,"url": "https://bd.jx.cn/?url=","ext": {"header": {"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+      {"name": "七七","type": 0,"url": "https://jx.77flv.cc/?url=","ext": {"header": {"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+      {"name": "盘古","type": 0,"url": "https://www.playm3u8.cn/jiexi.php?url=","ext": {"header": {"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+      {"name": "夜幕","type": 0,"url": "https://yemu.xyz/?url=","ext": {"header": {"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}}
+    ],
+    "rules": [
+      {"name": "农民","hosts": ["toutiaovod.com"],"regex": ["video/tos/cn"]},
+      {"name": "火山","hosts": ["huoshan.com"],"regex": ["item_id="]},
+      {"name": "抖音","hosts": ["douyin.com"],"regex": ["is_play_url="]},
+      {"name": "磁力广告","hosts": ["magnet"],"regex": ["更多","请访问","example","社 區","x u u","直 播","更 新","社 区","有趣","有 趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
+      {"name": "饭团点击","hosts": ["dadagui","freeok","dadagui"],"script": ["document.querySelector(\"#playleftiframe\").contentWindow.document.querySelector(\"#start\").click();"]},
+      {"name": "毛驴点击","hosts": ["www.maolvys.com"],"script": ["document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"]}
+    ],
+    "doh": [
+      {"name": "Google","url": "https://dns.google/dns-query","ips": ["8.8.4.4","8.8.8.8"]},
+      {"name": "Cloudflare","url": "https://cloudflare-dns.com/dns-query","ips": ["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"]},
+      {"name": "AdGuard","url": "https://dns.adguard.com/dns-query","ips": ["94.140.14.140","94.140.14.141"]},
+      {"name": "DNSWatch","url": "https://resolver2.dns.watch/dns-query","ips": ["84.200.69.80","84.200.70.40"]},
+      {"name": "Quad9","url": "https://dns.quad9.net/dns-quer","ips": ["9.9.9.9","149.112.112.112"]}
+    ],
+    "flags":["youku","优酷","优酷视频","qq","腾讯","腾讯视频","iqiyi","qiyi","奇艺","爱奇艺","m1905","xigua","letv","leshi","乐视","sohu","搜狐","搜狐视频","tudou","pptv","mgtv","芒果","imgo","芒果TV","bilibili","哔 哩","哔 哩 哔 哩"],
+    "ads":["mozai.4gtv.tv","pv.vipwm.cc","static-mozai.4gtv.tv"]
+  }
