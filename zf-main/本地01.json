@@ -1,0 +1,45 @@
+{
+  "logo": "./img/logo.png",
+  "spider": "./z-jar/xs.jar",
+  "sites": [
+
+    {"key":"Douban","name":"🌀zf-main","type":3,"api":"csp_Douban","searchable":0,"filterable":1},
+
+    {"key":"[影]热播_py","name":"01[影]热播","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[影]热播.py"},
+    {"key":"[影]VS影院_py","name":"02[影]VS影院","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[影]VS影院.py"},
+
+
+    {"key":"[影]4K影视_py","name":"[影]4K影视","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[影]4K影视.py"},
+    {"key":"[影]66大片网_py","name":"[影]66大片网","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[影]66大片网.py"},
+    {"key":"[影]808影院_py","name":"[影]808影院","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[影]808影院.py"},
+    {"key":"[影]99短剧网_py","name":"[影]99短剧网","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[影]99短剧网.py"},
+    {"key":"[影]kanxige_py","name":"[影]kanxige","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[影]kanxige.py"},
+    {"key":"[影]万佳影视_py","name":"[影]万佳影视","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[影]万佳影视.py"},
+    {"key":"[影]小宝影院_py","name":"[影]小宝影院","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[影]小宝影院.py"},
+    {"key":"[影]影视天下_py","name":"[影]影视天下","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[影]影视天下.py"},
+    {"key":"[影]悟空_py","name":"[影]悟空","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[影]悟空.py"},
+    {"key":"[影]爱看机器人_py","name":"[影]爱看机器人","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[影]爱看机器人.py"},
+    {"key":"[影]瓜子_py","name":"[影]瓜子","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[影]瓜子.py"},
+    {"key":"[影]皮皮影视_py","name":"[影]皮皮影视","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[影]皮皮影视.py"},
+    {"key":"[影]蘑菇影视_py","name":"[影]蘑菇影视","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[影]蘑菇影视.py"},
+
+
+
+
+
+
+
+    {"key":"[动]MiFun动漫_py","name":"[动]MiFun动漫","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[动]MiFun动漫.py"},
+    {"key":"[动]动漫电影_py","name":"[动]动漫电影","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[动]动漫电影.py"},
+
+    {"key":"[DJ]DJ呦呦_py","name":"[DJ]DJ呦呦","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[DJ]DJ呦呦.py"},
+    {"key":"[刷]刷鸭_py","name":"[刷]刷鸭","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[刷]刷鸭.py"},
+   
+    {"key":"[短]30剧集网_py","name":"[短]30剧集网","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[短]30剧集网.py"},
+    {"key":"[短]520短剧_py","name":"[短]520短剧","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./py/[短]520短剧.py"},
+
+    {"key":"PY_酷我音乐","name":"[收藏]酷我音乐","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./z-set/[收藏]酷我音乐.py"},
+
+    {"key":"ZF_push_agent","name":"手机推送[工具]","type":3,"api":"csp_Push","searchable":0,"filterable":0,"changeable":0}
+  ]
+}
